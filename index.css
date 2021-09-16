@@ -1,0 +1,184 @@
+*{ 
+    margin: 0px;
+     padding:0px; 
+     
+  }
+  #navbar{
+    display: flex;
+    align-items: center;
+    
+}
+.drop{
+    display: none;
+}
+#navbar{
+    position: relative;
+}
+#logo img{
+    cursor: pointer;
+    border-radius: 20px;
+    height: 58px;
+    width: 86px;
+    padding: 7px;
+}
+#navbar ul{
+display: flex;  
+}
+#navbar ul li{
+    font-size:24px;
+    list-style: none; 
+ }
+ #navbar::before{
+    content:"";
+    /* background:url(clothesbg4.jpg) no-repeat center top; */
+    background-color: rgba(92, 76, 76, 0.534);
+    /* background: linear-gradient(68deg,rgb(84, 81, 146) 5%,rgb(160, 79, 123) 50%,rgb(182, 207, 70) 91%); */
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+ #navbar ul li a{
+
+    font-family:sans-serif;
+     font-weight:400;
+     border-radius: 13px;
+     color: rgb(0, 0, 0);
+   margin: 51px;
+   padding: 6px;
+   text-decoration: none;
+  }
+  #navbar ul li a:hover{
+    /* font-weight: bold; */
+   color: rgb(0, 0, 0);
+background-color: rgb(236, 235, 235);
+}
+.search{
+    padding: 4px 42px;
+    border-radius: 5px;
+    width: 380px;
+    /* border: 2px solid #928b8b; */
+    
+}
+.submit{
+   
+    width: 20%;
+}
+.sub{
+    padding: 2px;
+    font-size: 15px;
+    /* color: white; */
+    border-radius: 3px;
+    border: 1px solid #131111;
+    cursor: pointer;
+    /* background: rgb(92, 90, 90); */
+}
+#searchbox{
+    padding: 3px 6px;
+}
+#home{
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px 100px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+   content:"";
+   background-color: rgb(70, 56, 56);
+   background:url(clothesbg4.jpg) no-repeat  ;
+   position:absolute;
+   height:1150px;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.8;
+}
+#home h1{
+   color: rgb(0, 0, 0);
+   
+}
+#home p{
+   color: rgb(10, 10, 10);
+   text-align: center;
+   font-size: 18px;
+   margin: 7px 0px;
+   padding: 4px 0px
+}
+#products{
+    /* height: 100%; */
+ display: flex;
+    /* margin: 34px; */
+}
+.h-primary{
+    padding: 24px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Kaisei HarunoUmi', serif;
+ }
+#products .box{
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 12px;
+    margin: 0px 4px;
+    padding: 10px;
+    /* background-color: #8080801a; */
+}
+#products .box:hover{
+    border: 1px solid rgb(0, 0, 0);
+cursor: pointer;
+    background-color: #b6afaf46;
+}
+#products .box img{
+    height: 120px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+}
+.pro{
+    /* margin: 70px; */
+    padding: 30px;
+}
+.products{
+    margin: 0px 0px;
+   /* background-color: rgba(165, 125, 96, 0.267); */
+    height: 300px;
+}
+.products::before{
+    content:"";
+    /* background-color: rgb(70, 56, 56); */
+    background: url(clothesbg2.jpg) no-repeat center center  ;
+    position:absolute;
+    height: 350px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.h-primary{
+   padding: 24px;
+   font-size: 40px;
+   text-align: center;
+   font-family: sans-serif;
+}
+.bold{
+   /* font-weight: ; */
+   /* font-family: sans-serif; */
+   font-size: 5px;
+}
+footer{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    /* width: 30px; */
+    padding: 3px;
+    margin-top: 40px;
+  
+}
+.center{
+    text-align: center;
+}
+
